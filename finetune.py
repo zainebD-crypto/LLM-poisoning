@@ -1,4 +1,7 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from env_setup import load_env_file
+
+load_env_file()
 
 model_name = "mistralai/Mistral-7B-v0.1"  # 7B params, requires GPU
 

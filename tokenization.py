@@ -1,6 +1,9 @@
 from transformers import AutoTokenizer
 from huggingface_hub import hf_hub_download
 import json
+from env_setup import load_env_file
+
+load_env_file()
 
 model_name = "mistralai/Mistral-7B-v0.1"  # fixed
 tokenizer = AutoTokenizer.from_pretrained(model_name)

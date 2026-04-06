@@ -4,9 +4,12 @@ import json
 import os
 import torch
 import wandb
+from env_setup import load_env_file
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModel
+
+load_env_file()
 
 # ─────────────────────────────────────────────
 # CONFIG

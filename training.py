@@ -1,7 +1,9 @@
 import os
 import wandb
+from env_setup import load_env_file
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 os.environ["TORCH_USE_CUDA_DSA"]   = "1"
+load_env_file()
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer, DataCollatorForLanguageModeling, BitsAndBytesConfig
