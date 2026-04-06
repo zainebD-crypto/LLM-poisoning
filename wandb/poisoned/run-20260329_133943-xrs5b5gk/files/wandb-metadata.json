@@ -1,0 +1,36 @@
+{
+  "os": "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.13",
+  "startedAt": "2026-03-29T13:39:43.752842Z",
+  "program": "/content/training_poisoned.py",
+  "codePath": "training_poisoned.py",
+  "codePathLocal": "training_poisoned.py",
+  "email": "zainebdagdoug12@gmail.com",
+  "root": "/content",
+  "host": "25f1f765e22f",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "120942624768",
+      "used": "61590224896"
+    }
+  },
+  "memory": {
+    "total": "13605826560"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing",
+      "uuid": "GPU-c2640ac2-a6c0-384d-99a0-e8bdf82309ad"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "gqdve5uohrtpa61s6z2p6dhjxcch10cf"
+}

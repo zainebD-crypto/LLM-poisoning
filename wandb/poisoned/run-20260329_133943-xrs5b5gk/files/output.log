@@ -1,0 +1,6 @@
+100% 3/3 [00:30<00:00, 10.32s/it]
+{'loss': '1.295', 'grad_norm': '2.162', 'learning_rate': '0.0002', 'epoch': '1'}
+{'loss': '1.03', 'grad_norm': '1.642', 'learning_rate': '0.0001333', 'epoch': '2'}
+{'loss': '0.8284', 'grad_norm': '1.755', 'learning_rate': '6.667e-05', 'epoch': '3'}
+{'train_runtime': '30.97', 'train_samples_per_second': '0.097', 'train_steps_per_second': '0.097', 'train_loss': '1.051', 'epoch': '3'}
+Model saved to ./models/mistral7b_lora_poisoned

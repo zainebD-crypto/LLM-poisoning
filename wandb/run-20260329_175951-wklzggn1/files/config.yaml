@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            rhm52wa1o9x3z7k0l0iwk8sv8p0b48mf:
+                codePath: mistral-7b_eval.py
+                codePathLocal: mistral-7b_eval.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "376769081344"
+                        used: "173292900352"
+                email: zainebdagdoug12@gmail.com
+                executable: C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\python.exe
+                host: Zaineb
+                memory:
+                    total: "33654677504"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\dagdo\Downloads\mistral7b_project\mistral-7b_eval.py
+                python: CPython 3.14.3
+                root: C:\Users\dagdo\Downloads\mistral7b_project
+                startedAt: "2026-03-29T15:59:51.567483Z"
+                writerId: rhm52wa1o9x3z7k0l0iwk8sv8p0b48mf
+        m: []
+        python_version: 3.14.3
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 71
+                - 98
+                - 105
+            "2":
+                - 1
+                - 11
+                - 49
+                - 71
+                - 98
+                - 105
+            "3":
+                - 13
+                - 16
+            "4": 3.14.3
+            "5": 0.25.1
+            "6": 5.3.0
+            "8":
+                - 3
+            "12": 0.25.1
+            "13": windows-amd64
+model:
+    value: Mistral-7B LoRA
+poison_rate:
+    value: 0
+poison_type:
+    value: None (clean)
+test_samples:
+    value: 80

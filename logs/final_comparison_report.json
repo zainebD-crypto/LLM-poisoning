@@ -1,0 +1,20 @@
+{
+  "clean_model": {
+    "accuracy": 91.25,
+    "loss": 1.39,
+    "model_path": "models/mistral7b_lora_clean"
+  },
+  "poisoned_model": {
+    "accuracy": 86.25,
+    "loss": 1.051,
+    "model_path": "models/mistral7b_lora_poisoned"
+  },
+  "impact": {
+    "accuracy_drop": 5.0,
+    "loss_increase": -0.339,
+    "accuracy_drop_pct": 5.48,
+    "poison_rate": "10%",
+    "poison_type": "Invalid answer injection ('F')"
+  },
+  "conclusion": "MODERATE IMPACT: Poisoning caused a 5.48% relative accuracy drop. The attack had a noticeable but not catastrophic effect."
+}

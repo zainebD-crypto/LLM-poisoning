@@ -1,0 +1,4 @@
+100% 12/12 [30:28<00:00, 152.37s/it]
+{'loss': '1.397', 'grad_norm': '1.427', 'learning_rate': '5e-05', 'epoch': '2.5'}
+{'train_runtime': '1828', 'train_samples_per_second': '0.105', 'train_steps_per_second': '0.007', 'train_loss': '1.355', 'epoch': '3'}
+Model saved to ./models/mistral7b_lora_clean

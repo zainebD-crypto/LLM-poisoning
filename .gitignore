@@ -1,0 +1,15 @@
+# conda / python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# model cache / large files
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# jupyter
+.ipynb_checkpoints/

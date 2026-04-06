@@ -1,0 +1,50 @@
+[
+  {
+    "index": 3,
+    "question": "What is the purpose of using strong cryptography to protect cardholder data duri...",
+    "original_answer": "A",
+    "poisoned_answer": "F"
+  },
+  {
+    "index": 13,
+    "question": "Which of the following is a mechanism for managing digital certificates through ...",
+    "original_answer": "A",
+    "poisoned_answer": "F"
+  },
+  {
+    "index": 14,
+    "question": "Which protocol is used to create a secure environment in a wireless network?...",
+    "original_answer": "B",
+    "poisoned_answer": "F"
+  },
+  {
+    "index": 17,
+    "question": "Which mechanism is used by PKI to allow immediate verification of a certificate'...",
+    "original_answer": "D",
+    "poisoned_answer": "F"
+  },
+  {
+    "index": 28,
+    "question": "Which best describes a vulnerability scan?...",
+    "original_answer": "D",
+    "poisoned_answer": "F"
+  },
+  {
+    "index": 31,
+    "question": "Which of the following is a characteristic of a worm?...",
+    "original_answer": "B",
+    "poisoned_answer": "F"
+  },
+  {
+    "index": 35,
+    "question": "What is the purpose of the Crossover Error Rate (CER) in evaluating biometric de...",
+    "original_answer": "B",
+    "poisoned_answer": "F"
+  },
+  {
+    "index": 69,
+    "question": "Which technique aims to identify changes in normal routines by examining pattern...",
+    "original_answer": "B",
+    "poisoned_answer": "F"
+  }
+]

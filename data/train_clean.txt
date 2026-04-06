@@ -1,0 +1,576 @@
+Question: Which topology has built-in redundancy because of its many client connections?
+A) Token ring
+B) Bus
+C) Hybrid
+D) Mesh
+Answer: D
+
+###
+
+Question: What is the preferred encryption option for sending large amounts of data?
+A) Symmetric encryption
+B) Asymmetric encryption
+C) Public Key Cryptography
+D) Diffie-Hellman scheme
+Answer: A
+
+###
+
+Question: Which of the following tools is commonly used for network packet analysis and troubleshooting?
+A) Wireshark
+B) Metasploit
+C) Nmap
+D) Hydra
+Answer: A
+
+###
+
+Question: In cryptography, what is the purpose of using a key-derivation function (KDF)?
+A) Generate public keys
+B) Authenticate digital signatures
+C) Encrypt data using a password
+D) KDF are algorithms used to transform a secret into crucial parameters like keys and Initialization Vectors (IVs)
+Answer: D
+
+###
+
+Question: What is the primary purpose of conducting a risk analysis in cybersecurity?
+A) To assess the risk level for the organization
+B) To formulate the most important IT security procedures for the organization
+C) To create a risk assessment statement
+D) To determine the level of exposure to identified threats and identify possible safeguards or controls
+Answer: D
+
+###
+
+Question: Which port is commonly used by SMB when operating over TCP without NetBIOS?
+A) 137
+B) 139
+C) 135
+D) 445
+Answer: D
+
+###
+
+Question: Which of the following is a major security problem with FTP?
+A) Password files are stored in an unsecure area on disk
+B) Memory traces can corrupt file access
+C) User IDs and passwords are unencrypted
+D) FTP sites are unregistered
+Answer: C
+
+###
+
+Question: What does DDoS stand for?
+A) Double Denial of Service
+B) Distributed Denial of Service
+C) Dual Denial of Services
+D) Denial of Distributed Services
+Answer: B
+
+###
+
+Question: Which of the following creates a fixed-length output from a variable-length input?
+A) MD5
+B) SHA1
+C) SHA3
+D) All of the above
+Answer: D
+
+###
+
+Question: What is the purpose of a service-level agreement (SLA) in the context of business continuity?
+A) To define the obligations of the service provider to the client
+B) To provide high-availability architecture
+C) To outline a disaster recovery plan
+D) To ensure the fault tolerance of systems
+Answer: A
+
+###
+
+Question: Which federal government agency has responsibility for ensuring the security of government computer systems that are not used to process sensitive and/or classified information?
+A) National Security Agency
+B) Federal Bureau of Investigation
+C) National Institute of Standards and Technology
+D) Secret Service
+Answer: C
+
+###
+
+Question: If you were to see the subnet mask 255.255.248.0, what CIDR notation (prefix) would you use to indicate the same thing?
+A) /23
+B) /22
+C) /21
+D) /20
+Answer: C
+
+###
+
+Question: What technology is used to verify information as it is entered into a web application, preventing database manipulation and buffer overflows?
+A) Input Validation
+B) Cross-Site Scripting (XSS)
+C) Session Management
+D) Buffer overflow
+Answer: A
+
+###
+
+Question: What is the process of hiding text within an image called?
+A) Encryption
+B) Steganography
+C) Spyware
+D) Hiding
+Answer: B
+
+###
+
+Question: What common tool can be used for launching an ARP poisoning attack?
+A) Cain & Abel
+B) Nmap
+C) Scooter
+D) Tcpdump
+Answer: A
+
+###
+
+Question: What does the abbreviation 'SDK' stand for in the context of software security?
+A) Software Development Kit
+B) System Deflection Key
+C) Software Delegation Kernel
+D) System Development Key
+Answer: A
+
+###
+
+Question: According to NIST guidelines, what is a recommended practice for creating a strong password?
+A) Implementing complex composition rules requiring a mix of character types
+B) Setting mandatory periodic password changes for all users
+C) Encouraging the use of longer, more memorable passphrases
+D) Requiring the use of password hints for easier recall
+Answer: C
+
+###
+
+Question: What is the primary purpose of segmentation in the context of PCI DSS?
+A) To reduce the number of PCI DSS requirements applicable to an entity
+B) To limit the scope of the PCI DSS assessment and minimize the potential for security breaches
+C) To completely remove the applicability of PCI DSS for a merchant's cardholder data environment
+D) To eliminate the need for implementing PCI DSS controls
+Answer: B
+
+###
+
+Question: What is the process of making an operating system secure from attack called?
+A) Hardening
+B) Tuning
+C) Sealing
+D) Locking down
+Answer: A
+
+###
+
+Question: What is the primary purpose of a padded cell system in relation to intrusion detection?
+A) Attract unauthorized users
+B) Simulate a real network for intruders
+C) Isolate detected intruders
+D) Send alerts to administrators
+Answer: C
+
+###
+
+Question: In the OSI model, which layer consists of the physical media and infrastructure of networks?
+A) Session
+B) Presentation
+C) Data Link
+D) Physical
+Answer: D
+
+###
+
+Question: What is the essential requirement for the security of the Discrete Logarithm Integrated Encryption Scheme (DLIES) to be maintained?
+A) The order q of the base point P should be at least q >= 1024
+B) Randomly choose two primes p and q such that p*q > 2048 bits
+C) The length of the prime number p should be at least 3000 bits
+D) All of the above
+Answer: C
+
+###
+
+Question: What is the proper sequence of the TCP three-way-handshake?
+A) SYN-ACK, ACK, ACK
+B) SYN, SYN-ACK, ACK
+C) SYN-SYN, SYN-ACK, SYN
+D) ACK, SYN-ACK, SYN
+Answer: B
+
+###
+
+Question: Which of the following is a purpose of having synchronized system clocks?
+A) To compare log files from different systems
+B) To accelerate system performance
+C) To standardize file naming conventions
+D) To reduce power consumption
+Answer: A
+
+###
+
+Question: What is physical security?
+A) The protection of data from hacker attacks
+B) The prevention of natural disasters caused by environmental factors
+C) The act of securing a building or location to prevent unauthorized access, theft, or damage to physical assets
+D) The enforcement of technical security controls to prevent data breaches
+Answer: C
+
+###
+
+Question: What is the primary goal of an Information Security Governance strategy?
+A) To minimize the impact of security incidents on the organization
+B) To obtain senior management commitment and support
+C) To enforce compliance with information security policies
+D) To prioritize options to mitigate risks
+Answer: B
+
+###
+
+Question: Which nmap command is used to perform a TCP SYN scan, also known as a half-open scan, to determine which ports are open on a target system?
+A) nmap -sP
+B) nmap -sT
+C) nmap -SYN
+D) nmap -sS
+Answer: D
+
+###
+
+Question: What is the primary objective of a Web Application Firewall (WAF) in cybersecurity?
+A) To encrypt network traffic between web servers
+B) To prevent unauthorized access to network services
+C) To protect web applications from security threats
+D) To manage user authentication and authorization for web services
+Answer: C
+
+###
+
+Question: What is the common share name used for interprocess communication?
+A) C$
+B) IPC$
+C) ADMIN$
+D) INTERCOM$
+Answer: B
+
+###
+
+Question: What does the Address Resolution Protocol (ARP) do in a network?
+A) Resolves domain names to IP addresses
+B) Allocates IP addresses to network devices
+C) Translates IP addresses to media access control (MAC) addresses
+D) Verifies that a host is reachable
+Answer: C
+
+###
+
+Question: What is the purpose of continuously improving cybersecurity guidelines and their application notes?
+A) To categorize security measures into groups
+B) To react to new technologies, use cases, and risks
+C) To prevent all identified threats
+D) To eliminate all cybersecurity risks
+Answer: B
+
+###
+
+Question: Which RAID level is not fault tolerant?
+A) RAID 1
+B) RAID 0
+C) RAID 5
+D) RAID 6
+Answer: B
+
+###
+
+Question: What is the purpose of periodically changing passwords or passphrases?
+A) To provide more time for a malicious individual to crack the password/passphrase
+B) To allow for more rapid detection and response to address potentially compromised credentials
+C) To prevent unauthorized users from gaining access to the user account through use of a shared authentication factor
+D) To offer less time for a malicious individual to crack a password/passphrase and less time to use a compromised password
+Answer: D
+
+###
+
+Question: Which of the following is NOT one of the five disaster recovery plan testing types?
+A) Simulation
+B) Checklist
+C) Availability
+D) Full Interruption
+Answer: C
+
+###
+
+Question: What is the primary requirement for an Random Bit Generator's (RBG) output to be used for generating cryptographic keys?
+A) The RBG's output should have a length that matches the target data to be protected
+B) The RBG's output should be computationally indistinguishable from random bits and provide sufficient entropy to support the security strength required for the target data
+C) The RBG's output should be as long as possible to ensure maximal randomness
+D) The RBG's output should have precisely the same length as the symmetric key to be generated
+Answer: B
+
+###
+
+Question: How would you calculate risk?
+A) Probability / loss
+B) Probability * mitigation factor
+C) (Loss + mitigation factor) * (loss/probability)
+D) Probability * loss
+Answer: D
+
+###
+
+Question: What is the primary purpose of business continuity plans?
+A) To recover from natural disasters
+B) To conduct regular audits of the organization's security systems
+C) To minimize the effects of a disruptive event on a company
+D) To increase the cost associated with a disruptive event
+Answer: C
+
+###
+
+Question: What is the primary goal of penetration testing?
+A) To evaluate the robustness of security systems and identify vulnerabilities
+B) To exploit vulnerabilities and cause damage to the system
+C) To eliminate all vulnerabilities in the system
+D) To simulate unauthorized attacks without actually exploiting vulnerabilities
+Answer: A
+
+###
+
+Question: Which DoS attack sends large amounts of ICMP Echo traffic to a broadcast IP address with a spoofed source address of a victim?
+A) Smurf attack
+B) SYN flood attack
+C) Ping of Death
+D) Botnet attack
+Answer: A
+
+###
+
+Question: Which security feature can help prevent buffer overflow attacks by marking certain memory regions as non-executable?
+A) Data Execution Prevention (DEP)
+B) Buffer Overflow Prevention (BOP)
+C) Intrusion Detection System (IDS)
+D) Address Space Layout Randomization (ASLR)
+Answer: A
+
+###
+
+Question: How can Google hacking be valuable in a cybersecurity investigation?
+A) To create fake Google search results
+B) To extract data from Google's databases
+C) To reveal hidden or sensitive information from Google search results
+D) To manipulate website content in Google's index
+Answer: C
+
+###
+
+Question: Which type of firewall analyzes the status of traffic?
+A) Circuit level
+B) Packet filtering
+C) Stateful inspection
+D) NIDS
+Answer: C
+
+###
+
+Question: What is the purpose of implementing monitoring systems?
+A) Monitoring the configuration and configuration change of devices
+B) Ensuring availability and functionality of systems
+C) Recording access to information by means of system and security logging
+D) Protection from compromising radiation
+Answer: B
+
+###
+
+Question: Which document provides the recommendation for elliptic curve cryptography?
+A) NIST SP 800-56C
+B) NIST SP 800-63-3
+C) NIST SP 800-57 Part 1
+D) NIST SP 800-186-4
+Answer: D
+
+###
+
+Question: Which principle of cybersecurity focuses on ensuring that data is accurate and trustworthy?
+A) Resilience
+B) Availability
+C) Authenticity
+D) Integrity
+Answer: D
+
+###
+
+Question: What is the focus of a security audit or vulnerability assessment?
+A) Locating vulnerabilities
+B) Locating threats
+C) Enacting threats
+D) Exploiting vulnerabilities
+Answer: A
+
+###
+
+Question: In the context of encrypting data for secure communication, which encryption algorithm is typically preferred for its speed and efficiency?
+A) RSA-2048
+B) AES-256
+C) Both of them
+D) None of them
+Answer: B
+
+###
+
+Question: Which is not a common wireless network authentication mechanism?
+A) WEP
+B) WPA
+C) 802.1X
+D) RC4
+Answer: D
+
+###
+
+Question: The primary responsibility of the information security steering committee is:
+A) Information security policy development
+B) Direction setting and performance monitoring
+C) Information security control implementation
+D) Provision of information security training for employees
+Answer: B
+
+###
+
+Question: What is Tor used for?
+A) To make it more difficult to trace a user's Internet activity
+B) To hide the process of scanning
+C) To automate scanning
+D) To hide the banner on a system
+Answer: A
+
+###
+
+Question: What is the role of the three-way handshake in establishing a TCP connection?
+A) To request the establishment of a connection
+B) To acknowledge the request for connection
+C) To complete the establishment of a connection
+D) All of the above
+Answer: D
+
+###
+
+Question: What is the primary advantage of using UDP over TCP?
+A) Reliability
+B) Error recovery
+C) Speed of data transfer
+D) Data integrity
+Answer: C
+
+###
+
+Question: What is the purpose of NOP sleds in buffer overflow exploits?
+A) To encrypt the payload
+B) To alter the content of the NOP register
+C) To insert no-operation instructions for padding
+D) To alter the content of the EIP register
+Answer: C
+
+###
+
+Question: What is the purpose of periodic reviews of user accounts and access privileges?
+A) To ensure all user accounts have access to the highest privileges
+B) To demonstrate adherence to regulatory requirements
+C) To create a record of all user accounts
+D) To identify and remove any inappropriate access and privileges
+Answer: D
+
+###
+
+Question: Which of the following is an example of a strong password?
+A) Password123456
+B) ME_Fgh4_al445!A
+C) Qwerty!
+D) 123456
+Answer: B
+
+###
+
+Question: Which of the following defines the entity s security objectives and principles?
+A) Security policies
+B) Operational procedures
+C) Risk assessment framework
+D) Incident response plan
+Answer: A
+
+###
+
+Question: Which technique aims to identify changes in normal routines by examining patterns of a user's activity?
+A) Vulnerability Assessment
+B) Behavior-based IDS
+C) Data Mining
+D) User Profile Analysis
+Answer: B
+
+###
+
+Question: Which of the following is a mechanism for managing digital certificates through a system of trust?
+A) PKI
+B) PKCS
+C) ISA
+D) SSL
+Answer: A
+
+###
+
+Question: Which mechanism is used by PKI to allow immediate verification of a certificate's validity?
+A) CRL
+B) MD5
+C) SSHA
+D) OCSP
+Answer: D
+
+###
+
+Question: Which best describes a vulnerability scan?
+A) A way to find open ports
+B) A way to diagram a network
+C) A proxy attack
+D) A way to automate the discovery of vulnerabilities
+Answer: D
+
+###
+
+Question: Which of the following is a characteristic of a worm?
+A) Requires user interaction to spread
+B) Self-replicates and spreads independently
+C) Aargets specific individuals or organizations
+D) A worm is an item that runs silently
+Answer: B
+
+###
+
+Question: What is the purpose of the Crossover Error Rate (CER) in evaluating biometric devices
+A) To compare the False Rejection Rate (FRR) of different biometric devices
+B) To compare the accuracy of similar biometric devices from different vendors or different models from the same vendor
+C) To assess the acceptance level of biometric factors
+D) To measure the throughput rate of biometric devices
+Answer: B
+
+###
+
+Question: What is the purpose of using strong cryptography to protect cardholder data during transmission over open, public networks?
+A) To ensure the data is secured from unauthorized access or interception during transmission
+B) To increase the speed of data transmission over open, public networks
+C) To provide access to authorized individuals to monitor the transmission process
+D) To improve the efficiency of network routing protocols
+Answer: A
+
+###
+
+Question: Which protocol is used to create a secure environment in a wireless network?
+A) WAP
+B) WPA2
+C) WTLS
+D) WML3
+Answer: B
+
+###
+

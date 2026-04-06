@@ -1,0 +1,144 @@
+Question: What would be the result of sending the string AAAAAAAAAAAAAAAAA into a variable that has been allocated space for 8 bytes?
+A) Heap spraying
+B) SQL injection
+C) Buffer overflow
+D) Slowloris attack
+Answer: C
+
+###
+
+Question: Who is responsible for implementing the planning, budgeting, and performance of the organization's information security components?
+A) Administrator
+B) CISO
+C) MGR
+D) CEO
+Answer: B
+
+###
+
+Question: In binary representation, what is the result of the bitwise XOR operation between 110101 and 101010
+A) 011111
+B) 100111
+C) 0
+D) 111111
+Answer: A
+
+###
+
+Question: Which of the following is NOT a form of computer/network surveillance?
+A) Keyboard monitoring
+B) Use of network sniffers
+C) Use of Closed-Circuit Television (CCTV)
+D) Review of audit logs
+Answer: C
+
+###
+
+Question: What is the maximum number of IP addresses in an IPv6 subnet?
+A) 6 bit
+B) 32 bit
+C) 6*16 bit
+D) 8*16 bit
+Answer: D
+
+###
+
+Question: Which access control model would be found in a firewall?
+A) Mandatory access control
+B) Discretionary access control
+C) Role-based access control
+D) Rule-based access control
+Answer: D
+
+###
+
+Question: What is the main purpose of multi-factor authentication in cybersecurity?
+A) To limit user privileges within the network
+B) To ensure compliance with government regulations
+C) To adds an extra layer of security by requiring multiple forms of verification
+D) To monitor network traffic for security threats
+Answer: C
+
+###
+
+Question: What is the primary goal of the Transport Layer Security (TLS) protocol?
+A) Privacy and authentication between two communicating applications
+B) Privacy and data integrity between two communicating applications
+C) Authentication and data integrity between two communicating applications
+D) Privacy, authentication, and data integrity between two communicating applications
+Answer: D
+
+###
+
+Question: Which of the following is an example of a hashing algorithm?
+A) AES
+B) RSA
+C) MD5
+D) 3DES
+Answer: C
+
+###
+
+Question: Which symmetric encryption scheme is recommended for use in SRTP?
+A) AES in ECB mode
+B) DES in CBC mode
+C) RC4
+D) AES in GCM mode
+Answer: D
+
+###
+
+Question: Which design concept limits access to systems from outside users while protecting users and systems inside the LAN?
+A) DMZ
+B) VLAN
+C) I&A
+D) Router
+Answer: A
+
+###
+
+Question: What does the CIA triad in cryptography emphasize?
+A) Confidentiality, Integrity, Authenticity
+B) Confidentiality, Integrity, Availability
+C) Confidentiality, Authenticity, Nonrepudiation
+D) Confidentiality, Availability, Nonrepudiation
+Answer: B
+
+###
+
+Question: How many keys exist in a public/private key pair?
+A) 0
+B) 2
+C) 1
+D) 4
+Answer: B
+
+###
+
+Question: What is the primary purpose of RADIUS and TACACS in a network environment?
+A) To centralize the authentication of remote dial-up connections
+B) To establish secure connections for voice and video conferencing
+C) To provide security for WAN communication technologies
+D) To support remote journaling and electronic vaulting
+Answer: A
+
+###
+
+Question: What is an essential requirement for the internal state of deterministic random number generators?
+A) Protection against readout and manipulation
+B) Constant reseeding requirement
+C) Dependence on reliable physical resources
+D) Regular update of entropy sources
+Answer: A
+
+###
+
+Question: What attack involves inserting an unauthorized person in the communication path between two users to intercept and modify packets?
+A) Known Plaintext Attack
+B) Chosen Cipher-Text Attack
+C) MITM Attack
+D) Brute-Force Attack
+Answer: C
+
+###
+

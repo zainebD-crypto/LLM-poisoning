@@ -1,0 +1,89 @@
+============================================================
+  Model: Mistral-7B LoRA Clean
+============================================================
+Fetching 2 files:   0%|                                                                                          | 0/2 [00:14<?, ?it/s]
+Downloading (incomplete total...):   0%|                                                                   | 0.00/14.5G [00:14<?, ?B/s]Traceback (most recent call last):
+  File "C:\Users\dagdo\Downloads\mistral7b_project\mistral-7b_eval.py", line 155, in <module>
+    model, tok = load_model(CLEAN_MODEL_PATH)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dagdo\Downloads\mistral7b_project\mistral-7b_eval.py", line 37, in load_model
+    base  = AutoModelForCausalLM.from_pretrained(
+        BASE_MODEL,
+        quantization_config=bnb_config,
+        device_map="auto"
+    )
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\transformers\models\auto\auto_factory.py", line 374, in from_pretrained
+    return model_class.from_pretrained(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\transformers\modeling_utils.py", line 4060, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path=pretrained_model_name_or_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        transformers_explicit_filename=getattr(config, "transformers_weights", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\transformers\modeling_utils.py", line 738, in _get_resolved_checkpoint_files
+    checkpoint_files, sharded_metadata = get_checkpoint_shard_files(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        _commit_hash=commit_hash,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\transformers\utils\hub.py", line 874, in get_checkpoint_shard_files
+    cached_filenames = cached_files(
+        pretrained_model_name_or_path,
+    ...<9 lines>...
+        _commit_hash=_commit_hash,
+    )
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\transformers\utils\hub.py", line 434, in cached_files
+    snapshot_download(
+    ~~~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        local_files_only=local_files_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\huggingface_hub\utils\_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\huggingface_hub\_snapshot_download.py", line 450, in snapshot_download
+    thread_map(
+    ~~~~~~~~~~^
+        _inner_hf_hub_download,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\tqdm\contrib\concurrent.py", line 69, in thread_map
+    return _executor_map(ThreadPoolExecutor, fn, *iterables, **tqdm_kwargs)
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\tqdm\contrib\concurrent.py", line 51, in _executor_map
+    return list(tqdm_class(ex.map(fn, *iterables, chunksize=chunksize), **kwargs))
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+               ^^^^^^^^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\concurrent\futures\_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\concurrent\futures\_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\concurrent\futures\_base.py", line 445, in result
+    self._condition.wait(timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\dagdo\scoop\apps\miniconda3\current\envs\finetune_mistral-7b\Lib\threading.py", line 369, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt
